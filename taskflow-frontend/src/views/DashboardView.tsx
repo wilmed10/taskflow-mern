@@ -60,13 +60,13 @@ export default function DashboardView() {
                                   <MenuItem>
                                       <Link to={``}
                                           className='block px-3 py-1 text-sm leading-6 text-gray-900'>
-                                      Ver Proyecto
+                                        Ver Proyecto
                                       </Link>
                                   </MenuItem>
                                   <MenuItem>
-                                      <Link to={``}
+                                      <Link to={`/projects/${project.id}/edit`}
                                           className='block px-3 py-1 text-sm leading-6 text-gray-900'>
-                                      Editar Proyecto
+                                        Editar Proyecto
                                       </Link>
                                   </MenuItem>
                                   <MenuItem>
