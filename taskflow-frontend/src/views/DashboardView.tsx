@@ -34,13 +34,13 @@ export default function DashboardView() {
               <div className="flex min-w-0 gap-x-4">
                   <div className="min-w-0 flex-auto space-y-2">
                       <Link to={``}
-                          className="text-gray-600 cursor-pointer hover:underline text-3xl font-bold"
+                        className="text-gray-600 cursor-pointer hover:underline text-3xl font-bold"
                       >{project.projectName}</Link>
                       <p className="text-sm text-gray-400">
-                          Cliente: {project.clientName}
+                        Cliente: {project.clientName}
                       </p>
                       <p className="text-sm text-gray-400">
-                          {project.description}
+                        {project.description}
                       </p>
                   </div>
               </div>
