@@ -29,7 +29,7 @@ const ProjectSchema: Schema = new Schema({
     tasks: [
         {
             type: Types.ObjectId,
-            ref: 'Tasks'
+            ref: 'Task'
         }
     ]
 }, {timestamps: true})
